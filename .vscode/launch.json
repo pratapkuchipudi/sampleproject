@@ -1,0 +1,17 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Program",
+            "url": "https://new-requests.eht-dev-02.ehealth-development.com",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+    
+      
+}

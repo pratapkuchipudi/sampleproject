@@ -37,13 +37,13 @@ namespace netcore.template
 
       }
 
-      [Step("Enter <username>")]
+      [Step("Enter username <username>")]
       public void EnterAuth0Username(String username) {
          Login_Decisions.EnterEmail(_driver, username);
          //Environment.SetEnvironmentVariable("username", username);
       }
 
-      [Step("Enter <password>")]
+      [Step("Enter password <password>")]
       public void EnteAuth0Password(String password) {
          Login_Decisions.EnterPassword(_driver, password);
       }
